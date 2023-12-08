@@ -1,0 +1,340 @@
+{
+    "calendar": {
+        "currentDate": {
+            "year": 69,
+            "month": 3,
+            "day": 28,
+            "seconds": 1800
+        },
+        "general": {
+            "gameWorldTimeIntegration": "mixed",
+            "showClock": true,
+            "noteDefaultVisibility": false,
+            "postNoteRemindersOnFoundryLoad": true,
+            "pf2eSync": true,
+            "dateFormat": {
+                "date": "YYYY-MMMM-DD",
+                "time": "HH:mm:ss",
+                "monthYear": "MMMM YAYYYYYZ"
+            }
+        },
+        "leapYear": {
+            "rule": "gregorian",
+            "customMod": 0
+        },
+        "months": [
+            {
+                "name": "Newfirst",
+                "abbreviation": "Nwm",
+                "numericRepresentation": 1,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 31,
+                "numberOfLeapYearDays": 31,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Lastmonth",
+                "abbreviation": "Lsm",
+                "numericRepresentation": 2,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 28,
+                "numberOfLeapYearDays": 29,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Firstmonth",
+                "abbreviation": "Frm",
+                "numericRepresentation": 3,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 31,
+                "numberOfLeapYearDays": 31,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Greenmonth",
+                "abbreviation": "Grm",
+                "numericRepresentation": 4,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 30,
+                "numberOfLeapYearDays": 30,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Redmonth",
+                "abbreviation": "Rdm",
+                "numericRepresentation": 5,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 31,
+                "numberOfLeapYearDays": 31,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Orangemonth",
+                "abbreviation": "Ogm",
+                "numericRepresentation": 6,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 30,
+                "numberOfLeapYearDays": 30,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Yellowmonth",
+                "abbreviation": "Ylm",
+                "numericRepresentation": 7,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 31,
+                "numberOfLeapYearDays": 31,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Oldsecond",
+                "abbreviation": "Osd",
+                "numericRepresentation": 8,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 31,
+                "numberOfLeapYearDays": 31,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Unity",
+                "abbreviation": "Uni",
+                "numericRepresentation": 9,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 30,
+                "numberOfLeapYearDays": 30,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Violetmonth",
+                "abbreviation": "Vim",
+                "numericRepresentation": 10,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 31,
+                "numberOfLeapYearDays": 31,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Snowbringer",
+                "abbreviation": "Snb",
+                "numericRepresentation": 11,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 30,
+                "numberOfLeapYearDays": 30,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            },
+            {
+                "name": "Deadwinter",
+                "abbreviation": "Ddw",
+                "numericRepresentation": 12,
+                "numericRepresentationOffset": 0,
+                "numberOfDays": 31,
+                "numberOfLeapYearDays": 31,
+                "intercalary": false,
+                "intercalaryInclude": false,
+                "startingWeekday": null
+            }
+        ],
+        "moons": [
+            {
+                "name": "Moon",
+                "cycleLength": 29.53059,
+                "firstNewMoon": {
+                    "yearReset": "none",
+                    "yearX": 0,
+                    "year": 2000,
+                    "month": 1,
+                    "day": 4
+                },
+                "phases": [
+                    {
+                        "name": "New Moon",
+                        "length": 1,
+                        "icon": "new",
+                        "singleDay": true
+                    },
+                    {
+                        "name": "Waxing Crescent",
+                        "length": 6.38265,
+                        "icon": "waxing-crescent",
+                        "singleDay": false
+                    },
+                    {
+                        "name": "First Quarter",
+                        "length": 1,
+                        "icon": "first-quarter",
+                        "singleDay": true
+                    },
+                    {
+                        "name": "Waxing Gibbous",
+                        "length": 6.38265,
+                        "icon": "waxing-gibbous",
+                        "singleDay": false
+                    },
+                    {
+                        "name": "Full Moon",
+                        "length": 1,
+                        "icon": "full",
+                        "singleDay": true
+                    },
+                    {
+                        "name": "Waning Gibbous",
+                        "length": 6.38265,
+                        "icon": "waning-gibbous",
+                        "singleDay": false
+                    },
+                    {
+                        "name": "Last Quarter",
+                        "length": 1,
+                        "icon": "last-quarter",
+                        "singleDay": true
+                    },
+                    {
+                        "name": "Waning Crescent",
+                        "length": 6.38265,
+                        "icon": "waning-crescent",
+                        "singleDay": false
+                    }
+                ],
+                "color": "#ffffff",
+                "cycleDayAdjust": 0.5
+            }
+        ],
+        "noteCategories": [
+            {
+                "name": "Holiday",
+                "textColor": "#FFFFFF",
+                "color": "#148e94"
+            }
+        ],
+        "seasons": [
+            {
+                "name": "Spring",
+                "startingMonth": 4,
+                "startingDay": 1,
+                "color": "#46b946",
+                "icon": "spring",
+                "sunriseTime": 21600,
+                "sunsetTime": 64800
+            },
+            {
+                "name": "Summer",
+                "startingMonth": 7,
+                "startingDay": 1,
+                "color": "#e0c40b",
+                "icon": "summer",
+                "sunriseTime": 21600,
+                "sunsetTime": 64800
+            },
+            {
+                "name": "Fall",
+                "startingMonth": 10,
+                "startingDay": 1,
+                "color": "#ff8e47",
+                "icon": "fall",
+                "sunriseTime": 21600,
+                "sunsetTime": 64800
+            },
+            {
+                "name": "Winter",
+                "startingMonth": 1,
+                "startingDay": 1,
+                "color": "#479dff",
+                "icon": "winter",
+                "sunriseTime": 21600,
+                "sunsetTime": 64800
+            }
+        ],
+        "time": {
+            "hoursInDay": 24,
+            "minutesInHour": 60,
+            "secondsInMinute": 60,
+            "gameTimeRatio": 1,
+            "unifyGameAndClockPause": false,
+            "updateFrequency": 1
+        },
+        "weekdays": [
+            {
+                "abbreviation": "Ea",
+                "name": "Earth day",
+                "description": "The day of the earth",
+                "numericRepresentation": 1,
+                "restday": false
+            },
+            {
+                "abbreviation": "Wa",
+                "name": "Water day",
+                "description": "The day of the water",
+                "numericRepresentation": 2,
+                "restday": false
+            },
+            {
+                "abbreviation": "Wi",
+                "name": "Wind day",
+                "description": "The day of the wind",
+                "numericRepresentation": 3,
+                "restday": false
+            },
+            {
+                "abbreviation": "Fo",
+                "name": "Forest day",
+                "description": "The day of the forest",
+                "numericRepresentation": 4,
+                "restday": false
+            },
+            {
+                "abbreviation": "Mo",
+                "name": "Mountain day",
+                "description": "The day of the mountains",
+                "numericRepresentation": 5,
+                "restday": false
+            },
+            {
+                "abbreviation": "Pe",
+                "name": "People's day",
+                "description": "The day of the people",
+                "numericRepresentation": 6,
+                "restday": false
+            },
+            {
+                "abbreviation": "Fe",
+                "name": "Feast day",
+                "description": "The day of the sun",
+                "numericRepresentation": 7,
+                "restday": false
+            }
+        ],
+        "year": {
+            "numericRepresentation": 69,
+            "prefix": "",
+            "postfix": "RIFT",
+            "showWeekdayHeadings": true,
+            "firstWeekday": 0,
+            "yearZero": 0,
+            "yearNames": [],
+            "yearNamingRule": "default",
+            "yearNamesStart": 0
+        }
+    }
+}
